@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <GridLayout
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:id="@+id/grid">
+
+        <Button
+            android:layout_width="110dp"
+            android:backgroundTint="#03A9F4"
+            android:layout_height="110dp"
+            android:onClick="click"
+            android:hint="."
+            android:textSize="44sp"
+            android:textColorHint="#03A9F4"
+            android:id="@+id/b1"
+            android:layout_margin="5dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b2"
+            android:hint="."
+            android:textSize="44sp"
+            android:textColorHint="#03A9F4"
+            android:onClick="click"
+            android:backgroundTint="#03A9F4"
+            android:layout_margin="5dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="110dp"
+            android:backgroundTint="#03A9F4"
+            android:layout_height="110dp"
+            android:id="@+id/b3"
+            android:hint="."
+            android:textSize="44sp"
+            android:textColorHint="#03A9F4"
+            android:onClick="click"
+            android:layout_margin="5dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b4"
+            android:onClick="click"
+            android:hint="."
+            android:textSize="44sp"
+            android:textColorHint="#03A9F4"
+            android:backgroundTint="#03A9F4"
+            android:layout_margin="5dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="110dp"
+            android:backgroundTint="#03A9F4"
+            android:id="@+id/b5"
+            android:hint="."
+            android:textSize="44sp"
+            android:textColorHint="#03A9F4"
+            android:onClick="click"
+            android:layout_height="110dp"
+            android:layout_margin="5dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b6"
+            android:hint="."
+            android:textSize="44sp"
+            android:textColorHint="#03A9F4"
+            android:onClick="click"
+            android:backgroundTint="#03A9F4"
+            android:layout_margin="5dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b7"
+            android:onClick="click"
+            android:hint="."
+            android:textSize="44sp"
+            android:textColorHint="#03A9F4"
+            android:backgroundTint="#03A9F4"
+            android:layout_margin="5dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b8"
+            android:onClick="click"
+            android:hint="."
+            android:textSize="44sp"
+            android:textColorHint="#03A9F4"
+            android:backgroundTint="#03A9F4"
+            android:layout_margin="5dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b9"
+            android:hint="."
+            android:textSize="44sp"
+            android:textColorHint="#03A9F4"
+            android:onClick="click"
+            android:backgroundTint="#03A9F4"
+            android:layout_margin="5dp">
+
+        </Button>
+
+
+    </GridLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game On Hai"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grid"
+        android:layout_marginLeft="35dp"
+        android:text="Reset"
+        android:backgroundTint="#03A9F4"
+        android:layout_marginTop="20dp"
+        android:id="@+id/reset">
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grid"
+        android:textSize="32sp"
+        android:layout_toRightOf="@+id/reset"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/result">
+
+    </TextView>
+
+
+
+
+</RelativeLayout>

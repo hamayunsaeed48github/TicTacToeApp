@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bac"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tic tac toe"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tic"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Start"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:onClick="next"
+        android:backgroundTint="#2074B6"
+        android:id="@+id/next">
+
+    </Button>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/g"
+        android:layout_below="@+id/next"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/game"
+        android:layout_marginTop="80dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game"
+        android:layout_centerHorizontal="true"
+        android:text="Game on hai"
+        android:textSize="24dp"
+        android:textColor="#ffffff"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tic"
+        android:text="2 Players"
+        android:textStyle="bold"
+        android:background="#2074B6"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp">
+
+    </TextView>
+
+
+
+
+
+
+</RelativeLayout>
